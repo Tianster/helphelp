@@ -1,5 +1,5 @@
 body {
-  background-color: skyblue;
+  background-color: white;
 }
 #question {
   display: flex;
@@ -32,7 +32,21 @@ body {
   border: 5px;
   border-color: black;
 }
-#barchart1, barchart2 {
+.graph {
+  background-color: #DDD;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: none;
+  border-top: none;
+  clear: both;
+  color: #000;
+  margin: 1em;
+  width: 15em;
+}
+.barchart {
+  background-color: green;
+}
+#barchart1, #barchart2 {
   
 }
 #timer {
@@ -42,4 +56,8 @@ body {
     background-color: grey;
     height: 50px;
     border: 1 px solid black;
+}
+
+.text {
+  background-color: grey;
 }
