@@ -1,35 +1,45 @@
 body {
   background-color: skyblue;
 }
-.question {
-  margin: 0 auto;
-  width: 300px;
+#question {
+  display: flex;
+  justify-content: center;
   height: 50px;
   border: 1 px solid black;
-  text-align: center;
   font-size: 30px;
   background-color: grey;
 }
-.choiceContainer {
+#choiceContainer {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   border: 5px;
   border-color: black;
 }
-.choice1, choice2 {
+#choice1, #choice2 {
+  display: flex;
+  justify-content: space-around;
   background-color: yellow;
   color: red;
+  font-size: 20px;
+  border-radius: 5px;
 }
-.barContainer {
+#barContainer {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 250px;
   border: 5px;
   border-color: black;
 }
-.barchart1, barchart2 {
+#barchart1, barchart2 {
   
 }
-.timer {
-  margin: 50%;
-  
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: grey;
+    height: 50px;
+    border: 1 px solid black;
 }
